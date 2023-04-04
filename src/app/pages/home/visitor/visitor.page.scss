@@ -1,0 +1,76 @@
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+    }
+
+    ion-toolbar{
+        --background: var(--primary);
+       font-family: "nexa";
+       margin-bottom: px;
+
+    }
+    .back{
+        font-size: x-large;
+    }
+    ion-content{
+        --background:url('/assets/img/bg.png') no-repeat center center/cover;
+        overflow: hidden;
+        --overflow: hidden;
+        margin-top: 10px;
+    
+        ion-list{
+            
+            height: auto;
+            background-color: transparent;
+            // transform: translateY(20vh);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 5px;
+            margin-top: 30px;
+    
+            ion-item{
+                
+                height: auto;
+                border: 2.5px solid; 
+                border-radius: 5%;
+                border-color: var(--primary);
+                margin-bottom: 10px;
+                
+                ion-label{
+                    color: black;
+                    font-family: "nexa";
+                    font-weight: bolder;
+                    font-size: larger;
+                }
+                ion-input{
+                    font-weight: bold;
+                }
+                
+    
+            }
+            ion-input{
+            align-items: center;
+            color:rgb(0, 0, 0);
+            font-family: "OpenSans";
+            }
+            
+            
+        }
+        .color1{
+            margin-top: 30px;
+            margin-left: 55px;
+            --background: var(--button);
+            font-family: "quicksand" ;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .color2{
+            margin-top: 30px;
+            font-family: "quicksand" ;
+            font-weight: bolder;
+            margin-left: 35px;
+            font-size: larger;
+        }
+    }

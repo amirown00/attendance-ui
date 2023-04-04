@@ -1,0 +1,45 @@
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+    }
+
+    ion-toolbar{
+        --background: var(--primary);
+       font-family: "nexa";
+       margin-bottom: px;
+
+       .back{
+        font-size: xx-large;
+       }
+
+    }
+   
+    ion-content {
+        --background:url('/assets/img/bg.png') no-repeat center center/cover;
+        overflow: hidden;
+        --overflow: hidden;
+        margin-top: 10px;
+        }
+        .teacher{
+            background-image: linear-gradient(to right top, #00a69c, #00a69c, #00a69c, #00a69c, #00a69c);
+        h1{
+            font-family: "heavitas";
+            color: white;
+            text-align: center;
+            font-size: xx-large;
+            
+        }
+       
+        }
+         .student{
+            background-image: linear-gradient(to right top, #f05b8c, #f05b8c, #f05b8c, #f05b8c, #f05b8c);
+        }
+        h1{
+            font-family: "heavitas";
+            color: white;
+            text-align: center;
+            font-size: xx-large; 
+        }
+        .visitor{
+            background-image: linear-gradient(to right top, #ffcc00, #ffcc00, #ffcc00, #ffcc00, #ffcc00);
+        }

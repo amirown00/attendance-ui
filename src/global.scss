@@ -24,3 +24,33 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: OpenSans;
+    src: url('./assets/font/open-sans/OpenSans-Light.ttf');
+}
+@font-face {
+    font-family: 'quicksand';
+    src: url('./assets/font/quicksand/Quicksand-Light.otf');
+  }
+  @font-face {
+    font-family: 'walkway';
+    src: url('./assets/font/cooper-hewitt/CooperHewitt-Light.otf');
+  }
+  @font-face {
+    font-family: 'coolvetica';
+    src: url('./assets/font/coolvetica/coolvetica rg.otf');
+  }
+  @font-face {
+    font-family: 'bastaman';
+    src: url('./assets/font/bastaman/Bastaman.ttf');
+  }
+  @font-face {
+    font-family: 'nexa';
+    src: url('./assets/font/nexa/Nexa-Heavy.ttf');
+  }
+  @font-face {
+    font-family: 'heavitas';
+    src: url('./assets/font/heavitas/Heavitas.ttf');
+  }
+

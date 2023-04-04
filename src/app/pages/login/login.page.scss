@@ -1,0 +1,77 @@
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+    }
+
+    ion-content {
+    --background:url('/assets/img/bg.png') no-repeat center center/cover;
+    overflow: hidden;
+    --overflow: hidden;
+    }
+
+    .logo-container {
+    display: flex;
+    justify-content: center;
+    }
+  
+    .logo-container img {
+    width: 125px;
+    height: 125px;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        }
+      
+        .img-container img {
+        width:200px;
+        height: 225px;
+    }
+    
+
+    ion-list{
+        height: auto;
+        background: transparent;
+        // transform: translateY(20vh);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+        ion-item{
+            height: auto;
+            border: 2.5px solid; 
+            
+            border-color: #00a69c;
+            margin-bottom: 10px;
+            
+            
+
+        }
+        ion-input{
+        align-items: center;
+        color:rgb(0, 0, 0);
+        font-family: "OpenSans";
+        }
+        
+        
+    }
+    ion-button.button-color{
+       --background: var(--button);
+       font-family: "quicksand" ;
+       font-weight: bolder;
+    }
+    a {
+        font-family: "quicksand";
+        font-weight: bold;
+        color: var(--text);
+    }
+    h1{
+       color: var(--h1);
+       margin-top: -30px; 
+       font-family: "coolvetica";
+       font-size: xx-large;
+    }

@@ -1,0 +1,53 @@
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+    }
+
+    ion-toolbar{
+        --background: var(--primary);
+       font-family: "nexa";
+       margin-bottom: px;
+
+    }
+    .back{
+        font-size: x-large;
+    }
+    ion-content{
+        --background:url('/assets/img/bg.png') no-repeat center center/cover;
+        overflow: hidden;
+        --overflow: hidden;
+        margin-top: 10px;
+
+        ion-card{
+            --background:var(--putih);
+            margin-top: 20px;
+            
+            ion-item{
+                --background:var(--putih);
+            }
+
+            .img-container{
+                width: 80px;
+                height: 80px;   
+            }
+
+            h1{
+                font-family: "nexa";
+                color: black;
+            }
+
+            ion-button{    
+                font-family: "nexa";
+                color: black;
+                margin-left: 40px;
+            }
+            .time{
+                margin-left: 73px;
+                margin-top: -20px;
+            }
+            .time2{
+                margin-left: 226px;
+                margin-top: -39px;
+            }
+        }
+    }

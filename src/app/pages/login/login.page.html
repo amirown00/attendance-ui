@@ -1,0 +1,51 @@
+<ion-content  [fullscreen]="true">
+
+    <div class="logo-container">
+        <img src="/assets/img/Anak2U.png" alt="My App Logo" class="logo-image">
+    </div>
+
+    <div class="ion-margin-top ion-text-center forget">
+      <h1>Attendance Application</h1>
+    </div>
+
+    <div class="img-container">
+      <img src="/assets/img/login.png" alt="My App Logo" class="logo-image">
+  </div>
+
+    <form>
+      <ion-list> 
+        <ion-item color="--border">
+            <ion-icon 
+          name="mail-outline" slot="start" color="medium">
+        </ion-icon>
+            <ion-input
+            placeholder="Enter Your Email" class="primary-input"></ion-input>
+        </ion-item>
+        
+        <ion-item color="--border">
+            <ion-icon (click)="onChange()"
+          [name]="isTypePassword ? 'lock-closed-outline' : 'lock-open-outline'" 
+          slot="start" 
+          [color]="isTypePassword ? 'medium' : 'primary'">
+        </ion-icon>
+            <ion-input placeholder="Enter Your Password" type="password" class="primary-input"></ion-input>
+        </ion-item>
+        </ion-list>
+
+         <div style="text-align: center !important;">
+        <ion-button class="button-color" shape="round" (click)="login()">LOGIN</ion-button>
+        </div>
+
+    </form>
+      
+      
+      <div class="ion-margin-top ion-text-center forget">
+        <a>Forgot Password?</a>
+      </div>
+
+      <div class="ion-margin-top ion-text-center forget">
+        <a>Invite Your School</a>
+      </div>
+    
+     
+</ion-content>
