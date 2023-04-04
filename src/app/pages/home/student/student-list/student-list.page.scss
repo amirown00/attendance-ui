@@ -1,0 +1,60 @@
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+    }
+
+    ion-toolbar{
+        --background: var(--primary);
+
+       ion-title {
+        color: white;
+        font-size: large;
+        font-family: "poppins";
+        letter-spacing: 2px;
+       }
+
+       .back{
+        font-size: xx-large;
+        color: white;
+       }
+
+    }
+
+    ion-content{
+        --background:url('/assets/img/bg.png') no-repeat center center/cover;
+        overflow: auto;
+        height: 100%;
+        
+        ion-card{
+            --background:var(--putih);
+            margin-top: 20px;
+            
+            ion-item{
+                --background:var(--putih);
+            }
+
+            .img-container{
+                width: 80px;
+                height: 80px;   
+            }
+
+            h1{
+                font-family: "poppins";
+                color: black;
+            }
+
+            ion-button{    
+                font-family: "poppins";
+                color: black;
+                margin-left: 40px;
+            }
+            .time{
+                margin-left: 73px;
+                margin-top: -20px;
+            }
+            .time2{
+                margin-left: 226px;
+                margin-top: -39px;
+            }
+        }
+    }

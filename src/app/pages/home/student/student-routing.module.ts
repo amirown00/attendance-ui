@@ -7,7 +7,11 @@ const routes: Routes = [
   {
     path: '',
     component: StudentPage
-  }
+  },  {
+    path: 'student-list',
+    loadChildren: () => import('./student-list/student-list.module').then( m => m.StudentListPageModule)
+  },
+
 ];
 
 @NgModule({

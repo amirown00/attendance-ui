@@ -5,41 +5,72 @@
 
     ion-toolbar{
         --background: var(--primary);
-       font-family: "nexa";
-       margin-bottom: px;
+
+       ion-title {
+        color: white;
+        font-size: large;
+        font-family: "poppins";
+        letter-spacing: 2px;
+       }
 
        .back{
         font-size: xx-large;
+        color: white;
        }
 
     }
    
     ion-content {
-        --background:url('/assets/img/bg.png') no-repeat center center/cover;
+        --background:url('/assets/img/bg.png');
         overflow: hidden;
         --overflow: hidden;
         margin-top: 10px;
+    
+
+        ion-card.teacher{
+            --background:url('/assets/img/teacher.png') no-repeat ;
+            background-size: cover;
+            width: 80%;
+            height: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            h1{
+                font-family: "poppins";
+                color: white;
+                text-align: center;
+                font-size: xx-large;
+            }
         }
-        .teacher{
-            background-image: linear-gradient(to right top, #00a69c, #00a69c, #00a69c, #00a69c, #00a69c);
-        h1{
-            font-family: "heavitas";
-            color: white;
-            text-align: center;
-            font-size: xx-large;
-            
+
+        ion-card.student{
+            --background:url('/assets/img/student.png') no-repeat;
+            background-size: cover;
+            width: 80%;
+            height: 22%;
+            margin-left: auto;
+            margin-right: auto;
+            h1{
+                font-family: "poppins";
+                color: white;
+                text-align: center;
+                font-size: xx-large;   
+            }
         }
-       
+
+        ion-card.visitor{
+            --background:url('/assets/img/visitor.png') no-repeat;
+            background-size: cover;
+            width: 80%;
+            height: 22%;
+            margin-left: auto;
+            margin-right: auto;
+            h1{
+                font-family: "poppins";
+                color: white;
+                text-align: center;
+                font-size: xx-large;
+            }
         }
-         .student{
-            background-image: linear-gradient(to right top, #f05b8c, #f05b8c, #f05b8c, #f05b8c, #f05b8c);
-        }
-        h1{
-            font-family: "heavitas";
-            color: white;
-            text-align: center;
-            font-size: xx-large; 
-        }
-        .visitor{
-            background-image: linear-gradient(to right top, #ffcc00, #ffcc00, #ffcc00, #ffcc00, #ffcc00);
-        }
+
+    }
+

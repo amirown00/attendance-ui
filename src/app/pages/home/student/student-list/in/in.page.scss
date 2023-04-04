@@ -1,0 +1,56 @@
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+    }
+
+    ion-toolbar{
+        --background: var(--primary);
+
+       ion-title {
+        color: var(--putih);
+        font-size: large;
+        font-family: "poppins";
+        letter-spacing: 2px;
+       }
+
+       .back{
+        font-size: xx-large;
+        color: var(--putih)
+       }
+
+    }
+    
+    ion-content{
+        --background:url('/assets/img/bg.png') no-repeat center center/cover;
+        overflow: hidden;
+        --overflow: hidden;
+
+        .img-container{
+            text-align: center;    
+        }
+
+        ion-item{
+            --background: var(--secondary-light);
+            ion-label{
+                color: black;
+                font-family: "poppins";
+                font-size: large;
+            }
+            ion-input{
+                color: black;
+                font-family: "poppins";
+                font-weight: lighter;
+            }
+        }
+        ion-button{
+            margin-top: 0px;
+            --background: var(--secondary);
+            color: white;
+                font-family: "poppins";
+                font-size: x-large;
+                padding-bottom: 20px;
+        }
+        .a{
+            margin-top: -15px;
+        }
+    }
