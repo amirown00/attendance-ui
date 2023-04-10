@@ -12,21 +12,21 @@
 
 <ion-content>
 
-  <ion-card class="teacher" routerLink="/home/teacher">
-    <ion-card-header>
-      <!--<h1>TEACHER</h1>-->
-    </ion-card-header>
-  </ion-card>
+  <ion-grid>
+    <ion-row>
 
-  <ion-card class="student" routerLink="/home/student">
-    <ion-card-header>
-      <!--<h1>STUDENT</h1>-->
-    </ion-card-header>
-  </ion-card>
+      <ion-col class="teachervisitor">
+        <ion-card class="teacher" routerLink="/home/teacher">
+        </ion-card>
+        <ion-card class="visitor" routerLink="/home/visitor">
+        </ion-card>
+      </ion-col>
+      <ion-col class="student">
+        <ion-card class="student" routerLink="/home/student">
+        </ion-card>
+      </ion-col>
 
-  <ion-card class="visitor" routerLink="/home/visitor">
-    <ion-card-header>
-      <!--<h1>VISITOR</h1>-->
-    </ion-card-header>
-  </ion-card>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>

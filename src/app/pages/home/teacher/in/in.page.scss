@@ -5,45 +5,56 @@
 
     ion-toolbar{
         --background: var(--primary);
-       font-family: "nexa";
-    
 
-    }
-    .back{
-        font-size: x-large;
-    }
-    ion-content{
-        --background:url('/assets/img/bg.png') no-repeat center center/cover;
-        overflow: hidden;
-        --overflow: hidden;
-        margin-top: 10px;
-
-        .img-container{
-            text-align: center;
-            
-        }
-        ion-item{
-            --background: var(--secondary-light);
-            ion-label{
-                color: black;
-                font-family: "nexa";
-                font-size: large;
-            }
-            ion-input{
-                color: black;
-                font-family: "nexa";
-                font-weight: lighter;
-            }
-        }
-        ion-button{
-            margin-top: 0px;
-            --background: var(--secondary);
+        ion-title {
             color: white;
-                font-family: "nexa";
+            font-size: 20px;
+            font-family: "poppins";
+            text-align: left;
+        }
+
+        .back{
+            font-size: xx-large;
+            color: var(--putih);
+        }
+    }
+    
+        ion-content {
+            --background: url('/assets/img/bg.png') no-repeat center center/cover;
+            overflow: hidden;
+            --overflow: hidden;
+            margin-top: 10px;
+    
+            .img-container {
+                text-align: center;
+            }
+    
+            ion-item {
+                --background: var(--secondary-light);
+    
+                ion-label {
+                    color: var(--hitam);
+                    font-family: "poppins";
+                    font-size: large;
+                }
+    
+                ion-input {
+                    color: var(--hitam);
+                    font-family: "poppins";
+                    font-weight: lighter;
+                }
+            }
+    
+            ion-button {
+                margin-top: 0px;
+                --background: var(--secondary);
+                color: white;
+                font-family: "poppins";
                 font-size: x-large;
                 padding-bottom: 20px;
+            }
+    
+            .a {
+                margin-top: -15px;
+            }
         }
-        .a{
-            margin-top: -15px;
-        }
-    }

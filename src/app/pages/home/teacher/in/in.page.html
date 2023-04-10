@@ -1,35 +1,35 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons class="back" slot="start" routerLink="/home/teacher">
-      <ion-icon name="chevron-back-outline" ></ion-icon>
+      <ion-icon name="chevron-back-outline"></ion-icon>
     </ion-buttons>
-    <ion-title>Teacher 1</ion-title>
+    <ion-title>Teacher</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  
-<div class="img-container">
-  <img src="/assets/img/photo.webp" (click)="action">
-</div>
 
-<ion-list lines="none">
+  <div class="img-container">
+    <img src="/assets/img/photo.webp" (click)="action">
+  </div>
+
+  <ion-list lines="none">
     <ion-item lines="none">
-  <ion-label position="default">Check In Time:</ion-label>
-  <ion-input type="text" required></ion-input>
-</ion-item>
-<ion-item lines="none">
-  <ion-label position="default">Check Out Time:</ion-label>
-  <ion-input type="text" required></ion-input>
-</ion-item>
-<ion-item lines="none">
-  <ion-label position="default">Temperature:</ion-label>
-  <ion-input type="text" required></ion-input>
-</ion-item>
-<ion-item lines="none">
-  <ion-label position="default">Conditions:</ion-label>
-  <ion-input type="text" required></ion-input>
-</ion-item>
+      <ion-label position="default">Check In Time:</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="default">Check Out Time:</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="default">Temperature:</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="default">Conditions:</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
   </ion-list>
 
   <ion-button expand="full" routerLink="/home/teacher/in/temperature">Record Temperature</ion-button>
