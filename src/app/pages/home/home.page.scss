@@ -25,7 +25,7 @@
         overflow: hidden;
         --overflow: hidden;
 
-        ion-grid {
+        /*ion-grid {
             ion-row {
                 ion-col.teachervisitor {
                     ion-card.teacher{
@@ -39,18 +39,20 @@
                         margin-right: auto;
                         border-radius: 15px;
                         margin-top: 20px;
+                        object-fit: contain;
                     }
                     ion-card.visitor{
                         --background:url('/assets/img/visitor.png') no-repeat;
                         background-position: center;
                         background-size: cover;
                         background-repeat: no-repeat;
-                        width: 200%;
-                        height: 420%;
+                        width: 100%;
+                        height: 220%;
                         margin-left: auto;
                         margin-right: auto;
                         border-radius: 15px;
                         margin-top: 10px;
+                        object-fit: contain;
                     }
                 }
                 ion-col.student {
@@ -65,10 +67,41 @@
                         margin-right: auto;
                         border-radius: 15px;
                         margin-top: 20px;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }*/
+
+        ion-grid {
+            ion-row {
+                ion-col.teachervisitor {
+                    ion-card.teacher{
+                        margin-top: 10px;
+                        margin-right: auto;
+                        margin-left: auto;
+                        width: 95%;
+                    }
+                    ion-card.visitor{
+                        margin-top: 10px;
+                        margin-right: auto;
+                        margin-left: auto;
+                        width: 200%;
+                        padding: 0%;
+                    }
+                }
+                ion-col.student {
+                    ion-card.student {
+                        margin-top: 10px;
+                        margin-right: auto;
+                        margin-left: auto;
+                        width: 95%;
                     }
                 }
             }
         }
+
+       
 
     }
 

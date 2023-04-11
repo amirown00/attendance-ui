@@ -1,83 +1,85 @@
-::-webkit-scrollbar, *::-webkit-scrollbar {
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
     display: none;
     overflow: hidden;
+}
+
+ion-toolbar {
+    --background: var(--primary);
+
+    ion-title {
+        color: white;
+        font-size: 20px;
+        font-family: "poppins";
+        text-align: left;
     }
 
-    ion-toolbar{
-        --background: var(--primary);
-
-       ion-title {
-            color: white;
-            font-size: 20px;
-            font-family: "poppins";
-            text-align: left;
-        }
-
-        .back{
-            font-size: xx-large;
-            color: white;
-        }
+    .back {
+        font-size: xx-large;
+        color: white;
     }
-    
-    ion-content{
-        --background:url('/assets/img/bg.png') no-repeat center center/cover;
-        overflow: hidden;
-        --overflow: hidden;
-    
-        ion-list{
-            background-color: transparent;
-            margin-top: 20px;
+}
 
-            ion-item{
-                width: 70%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 15px;
-                --background:var(--putih);
-                box-shadow: 0 0 4px rgb(0, 0, 0);
-                
-                ion-label{
-                    color: var(--hitam);
+ion-content {
+    --background: url('/assets/img/bg.png') no-repeat center center/cover;
+    overflow: hidden;
+    --overflow: hidden;
+
+    ion-list {
+        background-color: transparent;
+        margin-top: 20px;
+
+        ion-item {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            --background: var(--putih);
+            box-shadow: 0 0 4px rgb(0, 0, 0);
+
+            ion-label {
+                color: var(--hitam);
+                font-family: "poppins";
+                font-weight: bold;
+                font-size: large;
+            }
+
+            ion-input {
+                color: var(--primary);
+                font-family: "poppins";
+                font-size: medium;
+
+            }
+        }
+
+    }
+
+    ion-grid {
+        ion-row {
+            ion-col {
+                ion-button.color1 {
+                    margin-top: 30px;
+                    margin-left: 35px;
+                    --background: var(--h1);
                     font-family: "poppins";
                     font-weight: bold;
-                    font-size: large;
+                    font-size: larger;
+                    color: var(--putih);
                 }
-                ion-input{
-                    color: var(--primary);
+
+                ion-button.color2 {
+                    margin-top: 30px;
+                    margin-right: 35px;
+                    --background: var(--button);
                     font-family: "poppins";
-                    font-size: medium;
-
+                    font-weight: bold;
+                    font-size: larger;
+                    color: var(--putih);
                 }
             }
-   
-        }
 
-        ion-grid {
-            ion-row {
-                ion-col {
-                    ion-button.color1{
-                        margin-top: 30px;
-                        margin-left: 35px;
-                        --background: var(--h1);
-                        font-family: "poppins" ;
-                        font-weight: bold;
-                        font-size: larger;
-                        color: var(--button);
-                    }
-                    ion-button.color2{
-                        margin-top: 30px;
-                        margin-right: 35px;
-                        --background: var(--button);
-                        font-family: "poppins" ;
-                        font-weight: bold;
-                        font-size: larger;
-                        color: var(--h1);
-                    }
-                }
-                
-            }
         }
-
-        
     }
-    
+
+
+}
