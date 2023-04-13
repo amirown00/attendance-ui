@@ -143,7 +143,7 @@
                                 font-family: 'poppins';
                                 color: var(--hitam);
                             }
-                        }
+                        } 
                         ion-card.c2 {
                             background-color: #f5e3ab;
                             width: 60%;
@@ -272,76 +272,66 @@
                 ion-row {
                     ion-col.col1 {
                         ion-card {
-                            width: 95%;
+                            width: 110%;
                             padding: 15px;
                             margin-left: auto;
                             margin-right: auto;
                             margin-top: 10px;
                             margin-bottom: 10px;
                             background-color: var(--primary);
-                            img {
-            
-                            }
-                            ion-card-header {
-                                width: 150%;
-                                padding: 0px;
-                                margin-left: auto;
-                                margin-right: auto;
-                                ion-card-title.h1 {
-                                    font-size: small;
-                                    font-family: 'poppins';
-                                    margin-left: 2px;
-                                }
-                                ion-card-title.h2 {
-                                    font-size: small;
-                                    font-family: 'poppins';
-                                    margin-left: 8px;
-                                }
-                                ion-card-title.h3 {
-                                    font-size: small;
-                                    font-family: 'poppins';
-                                    margin-left: 25px;
-                                }
+
+                            ion-card-title {
+                                font-size: 10px;
+                                font-family: 'poppins';
+                                margin-top: 5px;
+                                margin-bottom: 3px;
+                                text-align: center;
                             }
                         }
                     }
                     ion-col.col2 {
                         ion-card {
-                            width: 95%;
+                            width: 110%;
                             padding: 15px;
                             margin-left: auto;
                             margin-right: auto;
                             margin-top: 10px;
                             margin-bottom: 10px;
                             background-color: var(--primary);
-                            img {
 
+                            ion-card-title {
+                                font-size: 10px;
+                                font-family: 'poppins';
+                                margin-top: 5px;
+                                margin-bottom: 3px;
+                                text-align: center;
                             }
-                            ion-card-header {
-                                width: 150%;
-                                padding: 0px;
-                                margin-left: auto;
-                                margin-right: auto;
-                                ion-card-title.h1 {
-                                    font-size: small;
-                                    font-family: 'poppins';
-                                    margin-left: 10px;
-                                }
-                                ion-card-title.h2 {
-                                    font-size: small;
-                                    font-family: 'poppins';
-                                    margin-left: 14px;
-                                }
-                                ion-card-title.h3 {
-                                    font-size: small;
-                                    font-family: 'poppins';
-                                    margin-left: 40px;
-                                }
+                        
+                        }
+                    }
+                    ion-col.col3 {
+                        ion-card {
+                            width: 110%;
+                            padding: 15px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            background-color: var(--primary);
+
+                            ion-card-title {
+                                font-size: 10px;
+                                font-family: 'poppins';
+                                margin-top: 5px;
+                                margin-bottom: 3px; 
+                                text-align: center;    
                             }
+                        
                         }
                     }
                 }
             }
+
             form {
                 ion-list {
                     background: transparent;
